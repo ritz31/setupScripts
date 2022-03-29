@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Get user input
 read -p "Enter port to proxy to -> " port
 read -p "Enter the domain / subdomain to accept requests from -> " domain

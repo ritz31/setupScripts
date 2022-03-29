@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "Enter [1] for node 14 or [2] for node 16 -> [Choose 1 or 2] " choice
 
 # system default
