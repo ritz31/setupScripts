@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt update -y && sudo apt upgrade -y
+sudo apt update -y -f && sudo apt upgrade -y -f
 
 sudo apt install xfce4 xfce4-goodies
 
@@ -19,4 +19,4 @@ vncserver -geometry 1366x768 -localhost
 
 echo "Use the following command to connect"
 echo "\n"
-echo "ssh -L 59000:localhost:5901 -N -f -l root <server-public-ipv4>"
+echo "ssh -L 5900:localhost:5901 -N -f -l root <server-public-ipv4>"
