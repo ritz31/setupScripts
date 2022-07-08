@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt update -y -f && sudo apt upgrade -y -f
+sudo apt update -y && sudo apt upgrade -y
 
 sudo apt install xfce4 xfce4-goodies
 
